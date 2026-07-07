@@ -1,29 +1,95 @@
-# 🚀 Automation Exercise - UI Test Automation Framework
+# 🚀 Automation Exercise
 
-A scalable and maintainable UI Test Automation Framework developed for the Automation Exercise e-commerce website using Java, Selenium WebDriver, TestNG, Maven, and the Page Object Model (POM).
+## End-to-End UI Test Automation Framework
 
-The framework was designed following automation testing best practices, emphasizing maintainability, reusability, scalability, and clean architecture. It automates major user journeys while providing reliable execution and comprehensive reporting.
+![Automation Testing](https://img.shields.io/badge/Automation_Testing-Selenium-success)
+![Java](https://img.shields.io/badge/Java-17-orange)
+![TestNG](https://img.shields.io/badge/TestNG-Framework-red)
+![Maven](https://img.shields.io/badge/Maven-Build-blue)
+![POM](https://img.shields.io/badge/Design-Page_Object_Model-brightgreen)
+![Status](https://img.shields.io/badge/Project-Completed-success)
+
+> A scalable and maintainable **UI Test Automation Framework** developed for the **Automation Exercise** e-commerce website using **Java, Selenium WebDriver, TestNG, Maven, JSON, and the Page Object Model (POM)**.
+
+The framework follows industry-standard automation testing practices with a strong focus on maintainability, scalability, clean architecture, and reusable components.
 
 ---
 
-# 📋 Project Overview
+# 🌐 Live Portfolio
+
+🔗 https://muhammed-elgarf.github.io/qa-portfolio/
+
+---
+
+# 📌 Project Summary
+
+| Item | Details |
+|------|---------|
+| Project Type | UI Test Automation |
+| Application | Automation Exercise |
+| Domain | E-Commerce |
+| Automation Tool | Selenium WebDriver |
+| Programming Language | Java |
+| Test Framework | TestNG |
+| Build Tool | Maven |
+| Design Pattern | Page Object Model (POM) |
+| Reporting | Allure + Extent |
+| Status | ✅ Completed |
+
+---
+
+# 📖 Project Overview
 
 This project automates the core business workflows of the Automation Exercise website through **26 End-to-End UI Test Cases**.
+
+The framework was built following automation testing best practices, emphasizing:
+
+- Clean Architecture
+- Reusable Components
+- Scalable Design
+- External Test Data
+- Centralized Configuration
+- Easy Maintenance
+
+---
+
+# 🎯 Project Objectives
+
+- Automate major business workflows.
+- Reduce manual regression effort.
+- Improve test execution reliability.
+- Build a reusable automation framework.
+- Generate detailed execution reports.
+- Apply automation testing best practices.
+
+---
+
+# 👨‍💻 My Responsibilities
+
+- Design Automation Framework
+- Develop Page Objects
+- Create Reusable Utilities
+- Implement TestNG Architecture
+- Integrate JSON Test Data
+- Configure Maven Dependencies
+- Generate Allure Reports
+- Generate Extent Reports
+- Execute Regression Test Suites
 
 ---
 
 # ✅ Project Highlights
 
-✔ 26 Automated End-to-End Test Cases  
-✔ 100% Test Pass Rate  
-✔ Page Object Model (POM) Design Pattern  
-✔ JSON-Based Test Data Management  
-✔ TestNG XML Suite Execution  
-✔ Maven Build & Dependency Management  
-✔ Interactive Allure Reports  
-✔ Extent Reports Integration  
-✔ Reusable Selenium Framework  
-✔ External Configuration Management
+- ✔ 26 Automated End-to-End Test Cases
+- ✔ 100% Test Pass Rate
+- ✔ Page Object Model (POM)
+- ✔ JSON Test Data
+- ✔ Maven Build Management
+- ✔ TestNG XML Suites
+- ✔ Allure Reports
+- ✔ Extent Reports
+- ✔ Reusable Framework
+- ✔ External Configuration
 
 ---
 
@@ -32,28 +98,21 @@ This project automates the core business workflows of the Automation Exercise we
 - User Registration
 - Login (Valid & Invalid)
 - Logout
-- Register with Existing Email
-- Contact Us Form
-- Test Cases Navigation
-- View Products & Product Details
-- Search Products
-- Homepage Subscription
-- Cart Subscription
-- Add Products to Cart
-- Verify Product Quantity
-- Register While Checkout
-- Register Before Checkout
-- Login Before Checkout
-- Remove Products from Cart
-- View Category Products
-- View Brand Products
-- Search Products & Verify Cart After Login
-- Add Product Review
-- Add Recommended Products to Cart
-- Verify Address Details
-- Download Invoice
-- Scroll Up Using Arrow Button
-- Scroll Up Without Arrow Button
+- Existing Email Validation
+- Contact Us
+- Product Search
+- Product Details
+- Add to Cart
+- Remove from Cart
+- Checkout
+- Product Quantity
+- Product Reviews
+- Category Navigation
+- Brand Navigation
+- Subscription
+- Address Validation
+- Invoice Download
+- Scroll Validation
 
 ---
 
@@ -79,30 +138,22 @@ src
 
 ---
 
-# 📸 Project Screenshots
-
-## Project Structure
-![Project Structure](images/AutomationExercise_ProjectStructure.png)
-## Allure Report
-![Allure Report](./images/allure_results.png)
----
-
 # ⚙ Framework Features
 
-- Reusable Page Objects
-- Base Page & Base Test Classes
-- Centralized Configuration Management
-- JSON Test Data Management
-- Custom Selenium Framework Utilities
-- Explicit Wait Utilities
+- Page Object Model (POM)
+- Base Page
+- Base Test
+- Selenium Utilities
+- Wait Utilities
 - JavaScript Utilities
-- Scroll & Click Helpers
-- File Upload Utilities
-- Extent Report Integration
-- Allure Report Integration
+- JSON Test Data
+- Config Reader
 - TestNG Listeners
-- Clean Project Structure
-- Easy Suite Execution
+- Maven
+- Extent Reports
+- Allure Reports
+- External Configuration
+- Cross-browser Ready Architecture
 
 ---
 
@@ -113,65 +164,36 @@ src
 | Java | Programming Language |
 | Selenium WebDriver | UI Automation |
 | TestNG | Test Framework |
-| Maven | Build Tool |
-| Page Object Model (POM) | Design Pattern |
+| Maven | Dependency Management |
 | JSON | Test Data |
+| POM | Design Pattern |
 | Allure Reports | Reporting |
 | Extent Reports | Reporting |
 | Git | Version Control |
-| Eclipse IDE | Development Environment |
+| GitHub | Repository Hosting |
+| Eclipse IDE | Development |
 
 ---
 
 # 📊 Test Results
 
 | Metric | Result |
-|--------|--------|
+|---------|--------|
 | Automated Test Cases | 26 |
-| Test Status | ✅ Passed |
+| Execution Status | ✅ Passed |
 | Framework Status | Stable |
 | Reporting | Allure + Extent |
 
 ---
 
-# ▶️ Run the Project
-
-### Clone Repository
-
-```bash
-git clone https://github.com/muhammed-elgarf/automation-exercise-ui-automation.git
-```
-
-### Install Dependencies
-
-```bash
-mvn clean install
-```
-
-### Execute Test Suite
-
-```bash
-mvn test
-```
-
-or run
-
-```text
-testng.xml
-```
-
----
-
 # 📁 Test Data
 
-The framework stores test data externally using JSON files.
-
-Examples include:
+External JSON files include:
 
 - register.json
 - login.json
-- products.json
 - payment.json
+- products.json
 - contact.json
 - review.json
 - subscription.json
@@ -179,36 +201,116 @@ Examples include:
 
 ---
 
-# 📈 Reports
+# 📸 Project Screenshots
 
-After execution, the framework generates:
+## 📂 Project Structure
 
-- ✅ Allure Reports
-- ✅ Extent Reports
-- ✅ TestNG Reports
+![Project Structure](images/AutomationExercise_ProjectStructure.png)
+
+---
+
+## 📊 Allure Report
+
+![Allure Report](images/allure_results.png)
+
+---
+
+# 📈 Skills Demonstrated
+
+- Selenium WebDriver
+- Java
+- TestNG
+- Maven
+- JSON
+- Automation Framework Design
+- Page Object Model
+- UI Automation
+- Regression Automation
+- Data Driven Testing
+- Reporting
+- Git
+- GitHub
+
+---
+
+# ▶️ Run the Project
+
+## Clone Repository
+
+```bash
+git clone https://github.com/muhammed-elgarf/automation-exercise-ui-automation.git
+```
+
+## Install Dependencies
+
+```bash
+mvn clean install
+```
+
+## Execute Tests
+
+```bash
+mvn test
+```
+
+or execute
+
+```text
+testng.xml
+```
 
 ---
 
 # 📂 Project Links
 
-### 🔗 GitHub Repository
+## 💻 GitHub
 
 https://github.com/muhammed-elgarf/automation-exercise-ui-automation
 
-### 📁 Google Drive (Project Files & Reports)
+## 📁 Google Drive
 
 https://drive.google.com/drive/folders/19auvcljwrjh1igceTDl1Kux9RYTHGedZ?usp=drive_link
 
-### 💼 LinkedIn
+## 🌐 Portfolio
 
-https://www.linkedin.com/in/muhammed-el-garf-798bb432a/
+https://muhammed-elgarf.github.io/qa-portfolio/
 
 ---
 
 # 👨‍💻 Author
 
-**Muhammed Raafat ELGarf**
+## Mohammed Raafat
 
-Software Testing Engineer
+**QA Engineer | Automation Testing | Manual Testing | API Testing**
 
-⭐ If you found this project helpful, consider giving it a Star.
+---
+
+# 🌐 Connect With Me
+
+💼 LinkedIn
+
+https://www.linkedin.com/in/muhammed-el-garf-798bb432a/
+
+💻 GitHub
+
+https://github.com/muhammed-elgarf
+
+📧 Email
+
+muhamedelgarf2@gmail.com
+
+📱 Phone / WhatsApp
+
++20 100 689 6936
+
+---
+
+# ⭐ Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+---
+
+# 📄 License
+
+This repository is intended for educational purposes, portfolio presentation, and demonstrating practical UI Test Automation skills.
